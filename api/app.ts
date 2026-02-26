@@ -12,7 +12,7 @@ import path from 'path'
 import dotenv from 'dotenv'
 import { fileURLToPath } from 'url'
 import authRoutes from './routes/auth.js'
-import roomsRoutes from './routes/rooms.js'
+import roomsRoutes from './rooms.js'
 import progressRoutes from './routes/progress.js'
 
 // for esm mode

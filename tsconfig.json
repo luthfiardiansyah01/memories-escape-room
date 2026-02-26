@@ -13,19 +13,21 @@
 
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
 
+    "baseUrl": ".",
+
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     },
 
-    "types": ["node", "express"],
-
-    "allowJs": true,
+    "types": ["node"],
 
     "resolveJsonModule": true,
 
+    "esModuleInterop": true,
+
     "skipLibCheck": true,
 
-    "isolatedModules": true
+    "ignoreDeprecations": "6.0"
 
   },
 
@@ -35,7 +37,9 @@
 
     "api",
 
-    "db"
+    "db",
+
+    "drizzle.config.ts"
 
   ],
 

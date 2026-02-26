@@ -14,11 +14,11 @@
     "lint:fix": "eslint . --ext .ts,.vue --fix"
   },
   "dependencies": {
+    "@libsql/client": "^0.17.0",
     "@vueuse/motion": "^3.0.3",
     "better-sqlite3": "^12.6.2",
     "clsx": "^2.1.1",
     "cors": "^2.8.5",
-    "dotenv": "^17.2.1",
     "drizzle-orm": "^0.45.1",
     "express": "^4.21.2",
     "howler": "^2.2.4",
@@ -45,6 +45,8 @@
     "@vue/tsconfig": "^0.7.0",
     "autoprefixer": "^10.4.17",
     "concurrently": "^9.2.0",
+    "dotenv": "^17.3.1",
+    "drizzle-kit": "^0.31.9",
     "eslint": "^8.56.0",
     "eslint-plugin-vue": "^9.20.1",
     "nodemon": "^3.1.10",
