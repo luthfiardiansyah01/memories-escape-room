@@ -7,7 +7,7 @@
     "client:dev": "vite",
     "server:dev": "nodemon",
     "dev": "concurrently \"npm run client:dev\" \"npm run server:dev\"",
-    "build": "vue-tsc -b && vite build",
+    "build": "vue-tsc -noEmit && vite build",
     "preview": "vite preview",
     "check": "vue-tsc -b",
     "lint": "eslint . --ext .ts,.vue",
